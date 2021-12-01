@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My test page</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    
+    <button onclick="document.getElementById('myImage').src='images/bulbon.png'">on</button>
+   
+    <button onclick="document.getElementById('myImage').src='images/bulboff.png'">off</button>
+    <img id="myImage" src="images/bulboff.png" style="width:200px">
+    
+    
+      
+    <h1>Mozilla is cool</h1>
+    I used a querySelector() Methodsd here
+    <img id="first" src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth." style="width: 100px;">
+
+    <p><b>JAVASCRIPT CONCEPTS</b></p>
+  
+
+    <ul> <!-- changed to list in the tutorial -->
+      <li>Methods</li>
+      <li>Variables</li>
+      <li>Event handlers</li>
+      <li>Conditionals</li>
+    </ul>
+
+
+
+
+<ul>
+    <p><b>Methods in JAVASCRIPTS</b></p>
+
+    <li>getElementById()</li>
+    <p id="yes">this method finds an html element(with id="yes"), and changes the element content
+    </p>
+    I have applied get element by id to make this text red
+    <li>querySelector() </li>
+    <p1>The query selctor makes use of the html tags such as the paragraph,image tags and changes the content according to what is reqiured</p1>
+    <li>getAttribute()</li>
+    This method returns the value of the attribute the specified name of an element
+    <li>setAttribute()</li>
+    This method adds the specified attribute to an element and gives it the specified value.
+    <li>write()</li>
+    This method writes HTML EXPRESSIONS OR JAVASCRIPT code to a document
+  </ul>
+
+
+  <form>
+    1st Number : <input type="text" id="firstNumber" /><br>
+    2nd Number: <input type="text" id="secondNumber" /><br>
+    <input type="button" onClick="multiplyBy()" Value="Multiply" />
+    <input type="button" onClick="divideBy()" Value="Divide" />
+    </form>
+    <p>The Result is : <br>
+    <span id = "result"></span>
+    </p>
+
+
+    <button id="on" style="background-color: rgb(221, 211, 218);">change user</button>
+  
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
